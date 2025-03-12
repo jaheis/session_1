@@ -17,7 +17,7 @@ print(my_number)
 numbers <- c(4, 5, 2, 1, 3)
 print(numbers)
 
-# Calculate sum, length of this vector
+# Calculate the sum and length of this vector
 sum(numbers)
 length(numbers)
 
@@ -57,3 +57,8 @@ square_function <- function(x) {
   return(x^2)
 }
 print(square_function(4))
+
+# Extra
+# Create an R script that simulates rolling a die 10 times, stores the results in a vector, and then sorts the results from smallest to largest. Hint: sample-function
+
+
