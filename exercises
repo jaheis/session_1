@@ -1,0 +1,59 @@
+# Introduction to R: Exercises
+
+# 1. Basic Arithmetic Operations
+# Perform the following calculations in R
+2 + 3  
+10 - 5 
+4 * 6  
+20 / 4  
+
+# 2. Assigning Variables
+# Assign the value 42 to a variable called my_number
+my_number <- 42
+print(my_number)
+
+# 3. Data Types
+# Create a numeric vector called numbers containing 4, 5, 2, 1, 3
+numbers <- c(4, 5, 2, 1, 3)
+print(numbers)
+
+# Calculate sum, length of this vector
+sum(numbers)
+length(numbers)
+
+# Sort the vector
+sort(vector)
+
+# Create a character vector called fruits containing "apple", "banana", "cherry"
+fruits <- c("apple", "banana", "cherry")
+print(fruits)
+
+# Access the first fruit
+fruits[1]
+
+# Access the third fruit
+fruits[3]
+
+# 4. Conditional Statements
+# Write an if-else statement to check if a number is positive, negative, or zero
+num <- -3
+if (num > 0) {
+  print("Positive number")
+} else if (num < 0) {
+  print("Negative number")
+} else {
+  print("Zero")
+}
+
+# 5. Loops
+# Use a for-loop to print numbers from 1 to 5
+for (i in 1:5) {
+  print(i)
+}
+
+# 6. Functions
+# Write a function that takes a number and returns its square
+square_function <- function(x) {
+  return(x^2)
+}
+print(square_function(4))
